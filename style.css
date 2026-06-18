@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #0f0f0f;
+    overflow: hidden;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    z-index: 2;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    background-color: #00ffff;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    box-shadow: 0px 0px 30px #00ffff;
+    transition: transform 0.05s linear;
+}
